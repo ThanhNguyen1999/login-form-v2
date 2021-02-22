@@ -1,0 +1,109 @@
+body,
+h1 {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+/* *{
+  outline: thin solid red;
+} */
+h1 {
+	font-size: 27px;
+}
+.main {
+	display: flex;
+	height: 100vh;
+}
+.left {
+	background: url(./img/Wallpapers.jpg) no-repeat center center;
+	background-size: cover;
+	width: 50%;
+}
+.right {
+	width: 50%;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px;
+}
+.content {
+	margin: auto;
+	width: 400px;
+}
+p {
+	font-size: 16px;
+	color: #969696;
+}
+.login {
+	display: flex;
+	flex-direction: column;
+}
+input {
+	border-radius: 6px;
+	border: thin solid #ededed;
+	border-width: 1px;
+	width: 100%;
+	background-color: #f7f6f9;
+	padding: 18px 9px;
+	font-size: 16px;
+}
+input:hover {
+	border-color: #d4d4d4;
+}
+.submit {
+	background-color: #675bde;
+	width: 14em;
+	color: white;
+	font-weight: 600;
+	cursor: pointer;
+}
+.submit:hover {
+	background-color: #49419e;
+}
+.end {
+	margin: auto;
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+	align-items: center;
+}
+.end h2 {
+	font-size: 1em;
+}
+.end a {
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+}
+.end a:hover {
+	font-weight: 900;
+}
+.login p {
+	color: red;
+	font-size: 12px;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+.content h2 {
+	color: #675bde;
+	font-weight: 600;
+}
+.object-pass {
+	position: relative;
+}
+.fa-eye {
+	position: absolute;
+	right: 0%;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #d6d6e7;
+}
+.right > * {
+	height: 25%;
+}
+.right > *:nth-child(2) {
+	height: 50%;
+}
+::placeholder {
+	color: #aaa9ac;
+}
