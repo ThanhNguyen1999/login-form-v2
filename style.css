@@ -99,10 +99,10 @@ input:hover {
 	color: #d6d6e7;
 }
 .right > * {
-	height: 25%;
+	 flex: 0.25;
 }
 .right > *:nth-child(2) {
-	height: 50%;
+	 flex: 0.5;
 }
 ::placeholder {
 	color: #aaa9ac;
